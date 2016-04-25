@@ -1,13 +1,12 @@
-Bootstrap 3 - Sublime Plugin
+Bootstrap 3 - Eclipse Templates (Migrated from Sublime)
 ==================
 
-A sublime plugin complete with Bootstrap 3 snippets
+Bootstrap 3 Eclipse Templates and not snippets, in Eclipse snippets and templates are two different things.
+Templates are more powerful and allow for shortcuts and on the fly substitution.
 
 Feel free to let me know what else you want added via:
 
-- Twitter [@JasonMortonNZ](https://twitter.com/jasonmortonnz)
-- [Issues](https://github.com/JasonMortonNZ/bs3-sublime-plugin/issues)
-
+- Twitter [@JasonMortonNZ](https://twitter.com/basilmusa)
 
 ## What's included - contents
 - [Installation](#installation)
