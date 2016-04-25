@@ -6,7 +6,9 @@ Templates are more powerful and allow for shortcuts and on the fly substitution.
 
 Feel free to let me know what else you want added via:
 
-- Twitter [@JasonMortonNZ](https://twitter.com/basilmusa)
+- Basil Musa [@BasilMusa](https://twitter.com/basilmusa)
+
+Originally ported from Sublime snippet creator [@JasonMortonNZ](https://twitter.com/jasonmortonnz)
 
 ## What's included - contents
 - [Installation](#installation)
