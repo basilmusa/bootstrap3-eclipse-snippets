@@ -10,6 +10,13 @@ Feel free to let me know what else you want added via:
 
 Originally ported from Sublime snippet creator [@JasonMortonNZ](https://twitter.com/jasonmortonnz)
 
+## Building
+
+To build the templates.xml file for importing into eclipse, run the following command:
+
+    mvn exec:java -Dexec.mainClass="basilmusa.bs3.Main"
+
+
 ## What's included - contents
 - [Installation](#installation)
 - [CDN](#cdn)
