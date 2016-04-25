@@ -1,2 +1,0 @@
-<${1:button} ${2:type="button"} class="btn btn-lg btn-${3:default} disabled">${4:button}</${1:button}>
-
