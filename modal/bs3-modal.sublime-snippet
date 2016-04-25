@@ -7,7 +7,7 @@ ${1:<a class="btn btn-primary" data-toggle="modal" href='#${2:modal-id}'>Trigger
 				<h4 class="modal-title">${3:Modal title}</h4>
 			</div>
 			<div class="modal-body">
-				${0}
+				${line_selection}${cursor}
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">${4:Close}</button>

@@ -1,4 +1,4 @@
 <div class="well">
-	${0}
+	${line_selection}${cursor}
 </div>
 

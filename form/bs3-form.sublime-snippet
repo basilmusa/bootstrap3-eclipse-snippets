@@ -6,7 +6,7 @@
 		<input type="text" class="form-control" id="" placeholder="Input field">
 	</div>
 
-	${0}
+	${line_selection}${cursor}
 
 	<button type="submit" class="btn btn-primary">${5:Submit}</button>
 </form>
