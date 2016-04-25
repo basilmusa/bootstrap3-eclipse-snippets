@@ -1,6 +1,0 @@
-<div class="checkbox">
-	<label>
-		<input type="checkbox" value="${1}">
-		${2:Checkbox}
-	</label>
-</div>
