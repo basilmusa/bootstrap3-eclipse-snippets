@@ -1,26 +1,22 @@
-<div class="panel panel-${1:default}">
+<div class="panel panel-${default_primary_info_success_warning_danger}">
 	<!-- Default panel contents -->
-	<div class="panel-heading">Panel heading</div>
+	<div class="panel-heading">${panelHeading}</div>
 	<div class="panel-body">
-		<p>Text goes here...</p>
+		<p>${panelBody}</p>
 	</div>
 
 	<!-- Table -->
 	<table class="table">
 		<thead>
 			<tr>
-				<th>${2:Heading 1}</th>
-			</tr>
-			<tr>
-				<th>${3:Heading 2}</th>
+				<th>${th1_label}</th>
+				<th>${th2_label}</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>${4:Content 1}</td>
-			</tr>
-			<tr>
-				<td>${5:Content 2}</td>
+				<td>${td1_content}</td>
+				<td>${td2_content}</td>
 			</tr>
 		</tbody>
 	</table>
