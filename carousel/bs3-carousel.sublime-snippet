@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 <div id="${1:carousel-id}" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
 		<li data-target="#${1:carousel-id}" data-slide-to="0" class=""></li>

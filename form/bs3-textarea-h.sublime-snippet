@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 <div class="form-group">
 	<label for="textarea${1/(\w+)/\u\1/g}" class="col-${2:sm-2} control-label">${1/(\w+)/\u\1/g}:</label>
 	<div class="col-${3:sm-10}">

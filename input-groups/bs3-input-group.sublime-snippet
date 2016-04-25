@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 <div class="input-group">
 	${0}
 </div>

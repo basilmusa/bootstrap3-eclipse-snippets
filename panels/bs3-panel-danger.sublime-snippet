@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 <div class="panel panel-${1:danger}">
 	<div class="panel-heading">
 		<h3 class="panel-title">Panel title</h3>

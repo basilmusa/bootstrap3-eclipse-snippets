@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 ${1:<a class="btn btn-primary" data-toggle="modal" href='#${2:modal-id}'>Trigger modal</a>}
 <div class="modal fade" id="${2:modal-id}">
 	<div class="modal-dialog">

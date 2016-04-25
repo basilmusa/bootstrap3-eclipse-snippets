@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 <div class="media">
 	<a class="pull-left" href="${1:#}">
 		<img class="media-object" src="${2:#}" alt="${3:Image}">
