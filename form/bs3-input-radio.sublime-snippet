@@ -4,6 +4,3 @@
 		${4:Radio Box}
 	</label>
 </div>
-]]></content>
-	<tabTrigger>bs3-input:radio</tabTrigger>
-</snippet>

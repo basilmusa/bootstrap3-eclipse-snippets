@@ -9,6 +9,4 @@
 
 	<button type="submit" class="btn btn-primary">${4:Submit}</button>
 </form>
-]]></content>
-	<tabTrigger>bs3-form:inline</tabTrigger>
-</snippet>
+

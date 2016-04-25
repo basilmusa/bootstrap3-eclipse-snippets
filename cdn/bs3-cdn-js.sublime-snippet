@@ -1,5 +1,3 @@
 <!-- Latest compiled and minified JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/${1:3.3.5}/js/bootstrap.min.js"></script>
-]]></content>
-	<tabTrigger>bs3-cdn:js</tabTrigger>
-</snippet>
+

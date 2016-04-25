@@ -39,6 +39,3 @@
 	<a class="left carousel-control" href="#${1:carousel-id}" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 	<a class="right carousel-control" href="#${1:carousel-id}" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
-]]></content>
-	<tabTrigger>bs3-carousel</tabTrigger>
-</snippet>

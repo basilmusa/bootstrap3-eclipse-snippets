@@ -4,6 +4,4 @@
 		<input type="color" name="${1}" id="input${1/(\w+)/\u\1/g}" class="form-control" ${4:value="${5}"} ${6:required="required"} ${7:title="${8}"}>
 	</div>
 </div>
-]]></content>
-	<tabTrigger>bs3-input:color:h</tabTrigger>
-</snippet>
+

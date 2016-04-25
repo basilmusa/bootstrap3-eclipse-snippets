@@ -6,6 +6,3 @@
 		${2:Panel content}
 	</div>
 </div>
-]]></content>
-	<tabTrigger>bs3-panel:heading</tabTrigger>
-</snippet>

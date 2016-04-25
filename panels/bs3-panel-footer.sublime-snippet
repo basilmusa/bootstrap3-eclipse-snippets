@@ -6,6 +6,3 @@
 		${2:Panel footer}
 	</div>
 </div>
-]]></content>
-	<tabTrigger>bs3-panel:footer</tabTrigger>
-</snippet>

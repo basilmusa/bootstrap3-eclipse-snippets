@@ -15,7 +15,5 @@
 		<div role="tabpanel" class="tab-pane" id="${2:tab}">...</div>
 	</div>
 </div>
-]]></content>
-	<tabTrigger>bs3-tabs</tabTrigger>
-</snippet>
+
 

@@ -1,4 +1,2 @@
 <span class="label label-danger">${1:Label}</span>
-]]></content>
-	<tabTrigger>bs3-label:danger</tabTrigger>
-</snippet>
+

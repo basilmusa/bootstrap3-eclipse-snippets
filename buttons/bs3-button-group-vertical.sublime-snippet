@@ -3,6 +3,3 @@
 	<${1:button} ${2:type="button"} class="btn btn-default">Middle</${1:button}>
 	<${1:button} ${2:type="button"} class="btn btn-default">Bottom</${1:button}>
 </div>
-]]></content>
-	<tabTrigger>bs3-group:vertical</tabTrigger>
-</snippet>

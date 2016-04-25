@@ -4,6 +4,3 @@
 		<p class="list-group-item-text">${2:Content goes here}</p>
 	</a>
 </div>
-]]></content>
-	<tabTrigger>bs3-list-group:content</tabTrigger>
-</snippet>
