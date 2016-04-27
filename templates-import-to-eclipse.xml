@@ -221,7 +221,7 @@
 		&lt;input type="color" name="${inputColor}" id="${inputColor}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-date" enabled="true" name="bs3-input-date">&lt;input type="date" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-date" enabled="true" name="bs3-input-date">&lt;input type="date" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-date-h" enabled="true" name="bs3-input-date-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
@@ -230,12 +230,12 @@
 &lt;/div&gt;
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-email" enabled="true" name="bs3-input-email">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="email" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}" placeholder="${}"&gt;
+	&lt;input type="email" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}" placeholder="${placeholder}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-email-h" enabled="true" name="bs3-input-email-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="email" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+		&lt;input type="email" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-group" enabled="true" name="bs3-input-group">&lt;div class="input-group"&gt;
@@ -254,51 +254,51 @@
 		&lt;button type="button" class="btn btn-default"&gt;Go!&lt;/button&gt;
 	&lt;/span&gt;
 &lt;/div&gt;
-</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-hidden" enabled="true" name="bs3-input-hidden">&lt;input type="hidden" name="${inputId}" id="${inputId}" class="form-control" value="${}"&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-label" enabled="true" name="bs3-input-label">&lt;label for="${inputId}" class="col-sm-2"&gt;${labelText}&lt;/label&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-month" enabled="true" name="bs3-input-month">&lt;div class="form-group"&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-hidden" enabled="true" name="bs3-input-hidden">&lt;input type="hidden" name="${inputId}" id="${inputId}" class="form-control" value="${value}"&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-label" enabled="true" name="bs3-input-label">&lt;label for="${inputId}" class="col-sm-2"&gt;${labelText}&lt;/label&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-month" enabled="true" name="bs3-input-month">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="month" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;input type="month" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-month-h" enabled="true" name="bs3-input-month-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="month" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+		&lt;input type="month" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-number" enabled="true" name="bs3-input-number">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="number" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+	&lt;input type="number" name="${inputId}" id="${inputId}" class="form-control" value="${value}" min="${min}" max="${max}" step="${}" required="required" title="${title}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-number-h" enabled="true" name="bs3-input-number-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="number" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+		&lt;input type="number" name="${inputId}" id="${inputId}" class="form-control" value="${value}" min="${min}" max="${max}" step="${}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-password" enabled="true" name="bs3-input-password">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="password" name="${inputId}" id="${inputId}" class="form-control" required="required" title="${}" placeholder="${}"&gt;
+	&lt;input type="password" name="${inputId}" id="${inputId}" class="form-control" required="required" title="${title}" placeholder="${}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-password-h" enabled="true" name="bs3-input-password-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="password" name="${inputId}" id="${inputId}" class="form-control" required="required" title="${}"&gt;
+		&lt;input type="password" name="${inputId}" id="${inputId}" class="form-control" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-radio" enabled="true" name="bs3-input-radio">&lt;div class="radio"&gt;
 	&lt;label&gt;
-		&lt;input type="radio" name="${inputId}" id="${inputId}" value="${}" checked="checked"&gt;
+		&lt;input type="radio" name="${inputId}" id="${inputId}" value="${value}" checked="checked"&gt;
 		${radioText}
 	&lt;/label&gt;
 &lt;/div&gt;
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-range" enabled="true" name="bs3-input-range">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="range" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+	&lt;input type="range" name="${inputId}" id="${inputId}" class="form-control" value="${value}" min="${min}" max="${max}" step="${}" required="required" title="${title}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-range-h" enabled="true" name="bs3-input-range-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="range" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+		&lt;input type="range" name="${inputId}" id="${inputId}" class="form-control" value="${value}" min="${min}" max="${max}" step="${}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -312,12 +312,12 @@
 
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-search" enabled="true" name="bs3-input-search">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="search" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}" placeholder="${}"&gt;
+	&lt;input type="search" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}" placeholder="${}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-search-h" enabled="true" name="bs3-input-search-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="search" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+		&lt;input type="search" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -342,56 +342,56 @@
 &lt;/div&gt;
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-tel" enabled="true" name="bs3-input-tel">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="tel" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}" placeholder="${}"&gt;
+	&lt;input type="tel" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}" placeholder="${}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-tel-h" enabled="true" name="bs3-input-tel-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="tel" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+		&lt;input type="tel" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-text" enabled="true" name="bs3-input-text">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="text" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" pattern="${}" title="${}" placeholder="${}"&gt;
+	&lt;input type="text" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" pattern="${pattern}" title="${title}" placeholder="${placeholder}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt; </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-text-h" enabled="true" name="bs3-input-text-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="text" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" pattern="${}" title="${}" placeholder="${}"&gt;
+		&lt;input type="text" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" pattern="${}" title="${title}" placeholder="${}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-time" enabled="true" name="bs3-input-time">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="time" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}" placeholder="${}"&gt;
+	&lt;input type="time" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}" placeholder="${}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt; </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-time-h" enabled="true" name="bs3-input-time-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="time" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+		&lt;input type="time" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-url" enabled="true" name="bs3-input-url">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="url" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}" placeholder="${}"&gt;
+	&lt;input type="url" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}" placeholder="${}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-url-h" enabled="true" name="bs3-input-url-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="url" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+		&lt;input type="url" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
 </template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-week" enabled="true" name="bs3-input-week">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}"&gt;${inputLabel}&lt;/label&gt;
-	&lt;input type="week" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;input type="week" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;p class="help-block"&gt;${helpTip}&lt;/p&gt;
 &lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-week-h" enabled="true" name="bs3-input-week-h">&lt;div class="form-group"&gt;
 	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
 	&lt;div class="col-sm-10"&gt;
-		&lt;input type="week" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+		&lt;input type="week" name="${inputId}" id="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
