@@ -1,4 +1,7 @@
-<select name="${inputId}" id="${inputId}" class="form-control" required="required">
-	<option value="">${line_selection}${cursor}</option>
-</select>
-
+<div class="form-group">
+	<label for="${inputId}">${inputLabel}</label>
+	<select name="${inputId}" id="${inputId}" class="form-control" required="required">
+		<option value="">${line_selection}${cursor}</option>
+	</select>
+	<p class="help-block">${helpTip}</p>
+</div>
