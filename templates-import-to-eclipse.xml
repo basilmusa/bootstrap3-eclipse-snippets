@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates><template autoinsert="true" context="html_all" deleted="false" description="bs3-alert" enabled="true" name="bs3-alert">&lt;div class="alert"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+	&lt;strong&gt;${title}&lt;/strong&gt; ${alertBody}
+&lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-alert-danger" enabled="true" name="bs3-alert-danger">&lt;div class="alert alert-danger"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+	&lt;strong&gt;${title}&lt;/strong&gt; ${alertBody}
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-alert-info" enabled="true" name="bs3-alert-info">&lt;div class="alert alert-info"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+	&lt;strong&gt;${title}&lt;/strong&gt; ${alertBody}
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-alert-success" enabled="true" name="bs3-alert-success">&lt;div class="alert alert-success"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+	&lt;strong&gt;${title}&lt;/strong&gt; ${alertBody}
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-alert-warning" enabled="true" name="bs3-alert-warning">&lt;div class="alert alert-warning"&gt;
+	&lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+	&lt;strong&gt;${title}&lt;/strong&gt; ${alertBody}
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-badge" enabled="true" name="bs3-badge">&lt;span class="badge"&gt;${badge}&lt;/span&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-block-button" enabled="true" name="bs3-block-button">&lt;button type="button" class="btn btn-block btn-${default_danger_info_primary_success_warning} btn-${lg_sm_xs}" ${disabled}&gt;${buttonLabel}&lt;/button&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-block-link-button" enabled="true" name="bs3-block-link-button">&lt;a class="btn btn-${lg_sm_xs} btn-block btn-${default_danger_info_primary_success_warning} ${disabled}" href="${linkUrl}" role="button"&gt;${linkLabel}&lt;/a&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-breadcrumbs" enabled="true" name="bs3-breadcrumbs">&lt;ol class="breadcrumb"&gt;
+	&lt;li&gt;
+		&lt;a href="${link}"&gt;${homeTitle}&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="${intermediateLink}"&gt;${intermediateTitle}&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li class="active"&gt;${currentTitle}&lt;/li&gt;
+&lt;/ol&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-button" enabled="true" name="bs3-button">&lt;button type="button" class="btn btn-${default_danger_info_primary_success_warning} btn-${lg_sm_xs}" ${disabled}&gt;${buttonLabel}&lt;/button&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-button-group" enabled="true" name="bs3-button-group">&lt;div class="btn-group"&gt;
+	&lt;button type="button" class="btn btn-default"&gt;Left&lt;/button&gt;
+	&lt;button type="button" class="btn btn-default"&gt;Middle&lt;/button&gt;
+	&lt;button type="button" class="btn btn-default"&gt;Right&lt;/button&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-button-group-vertical" enabled="true" name="bs3-button-group-vertical">&lt;div class="btn-group-vertical"&gt;
+	&lt;button type="button" class="btn btn-default"&gt;Top&lt;/button&gt;
+	&lt;button type="button" class="btn btn-default"&gt;Middle&lt;/button&gt;
+	&lt;button type="button" class="btn btn-default"&gt;Bottom&lt;/button&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-button-toolbar" enabled="true" name="bs3-button-toolbar">&lt;div class="btn-toolbar"&gt;
+	&lt;div class="btn-group"&gt;&lt;/div&gt;
+	&lt;div class="btn-group"&gt;&lt;/div&gt;
+	&lt;div class="btn-group"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-carousel" enabled="true" name="bs3-carousel">&lt;div id="${carouselId}" class="carousel slide" data-ride="carousel"&gt;
+	&lt;ol class="carousel-indicators"&gt;
+		&lt;li data-target="#${carouselId}" data-slide-to="0" class=""&gt;&lt;/li&gt;
+		&lt;li data-target="#${carouselId}" data-slide-to="1" class=""&gt;&lt;/li&gt;
+		&lt;li data-target="#${carouselId}" data-slide-to="2" class="active"&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+	&lt;div class="carousel-inner"&gt;
+		&lt;div class="item"&gt;
+			&lt;img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+"&gt;
+			&lt;div class="container"&gt;
+				&lt;div class="carousel-caption"&gt;
+					&lt;h1&gt;Example headline.&lt;/h1&gt;
+					&lt;p&gt;Note: If you're viewing this page via a &lt;code&gt;file://&lt;/code&gt; URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.&lt;/p&gt;
+					&lt;p&gt;&lt;a class="btn btn-lg btn-primary" href="#" role="button"&gt;Sign up today&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="item"&gt;
+			&lt;img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg=="&gt;
+			&lt;div class="container"&gt;
+				&lt;div class="carousel-caption"&gt;
+					&lt;h1&gt;Another example headline.&lt;/h1&gt;
+					&lt;p&gt;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+					&lt;p&gt;&lt;a class="btn btn-lg btn-primary" href="#" role="button"&gt;Learn more&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="item active"&gt;
+			&lt;img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+"&gt;
+			&lt;div class="container"&gt;
+				&lt;div class="carousel-caption"&gt;
+					&lt;h1&gt;One more for good measure.&lt;/h1&gt;
+					&lt;p&gt;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+					&lt;p&gt;&lt;a class="btn btn-lg btn-primary" href="#" role="button"&gt;Browse gallery&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a class="left carousel-control" href="#${carouselId}" data-slide="prev"&gt;&lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;&lt;/a&gt;
+	&lt;a class="right carousel-control" href="#${carouselId}" data-slide="next"&gt;&lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-cdn" enabled="true" name="bs3-cdn">&lt;!-- Latest compiled and minified CSS &amp; JS --&gt;
+&lt;!-- version 3.3.5 --&gt;
+&lt;link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/${version}/css/bootstrap.min.css"&gt;
+&lt;script src="https://code.jquery.com/jquery.js"&gt;&lt;/script&gt;
+&lt;script src="//netdna.bootstrapcdn.com/bootstrap/${version}/js/bootstrap.min.js"&gt;&lt;/script&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-cdn-css" enabled="true" name="bs3-cdn-css">&lt;!-- Latest compiled and minified CSS --&gt;
+&lt;!-- For version, use 3.3.5 --&gt;
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/${version}/css/bootstrap.min.css"&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-cdn-js" enabled="true" name="bs3-cdn-js">&lt;!-- Latest compiled and minified JS --&gt;
+&lt;!-- For version use 3.3.5 --&gt;
+&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/${version}/js/bootstrap.min.js"&gt;&lt;/script&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-clearfix" enabled="true" name="bs3-clearfix">&lt;div class="clearfix"&gt;&lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col" enabled="true" name="bs3-col">&lt;div class="col-xs-${digit} col-sm-${digit} col-md-${digit} col-lg-${digit}"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-1" enabled="true" name="bs3-col-1">&lt;div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-10" enabled="true" name="bs3-col-10">&lt;div class="col-xs-10 col-sm-10 col-md-10 col-lg-10"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-11" enabled="true" name="bs3-col-11">&lt;div class="col-xs-11 col-sm-11 col-md-11 col-lg-11"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-12" enabled="true" name="bs3-col-12">&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-2" enabled="true" name="bs3-col-2">&lt;div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-3" enabled="true" name="bs3-col-3">&lt;div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-4" enabled="true" name="bs3-col-4">&lt;div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-5" enabled="true" name="bs3-col-5">&lt;div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-6" enabled="true" name="bs3-col-6">&lt;div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-7" enabled="true" name="bs3-col-7">&lt;div class="col-xs-7 col-sm-7 col-md-7 col-lg-7"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-8" enabled="true" name="bs3-col-8">&lt;div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-col-9" enabled="true" name="bs3-col-9">&lt;div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-container" enabled="true" name="bs3-container">&lt;div class="container-fluid"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-form" enabled="true" name="bs3-form">&lt;form action="${}" method="${post}" role="form"&gt;
+	&lt;legend&gt;${formTitle}&lt;/legend&gt;
+
+	${line_selection}${cursor}
+
+	&lt;button type="submit" class="btn btn-primary" id="${buttonId}" name="${buttonId}"&gt;${buttonLabel}&lt;/button&gt;
+&lt;/form&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-form-horizontal" enabled="true" name="bs3-form-horizontal">&lt;form action="${}" method="${post}" class="form-horizontal" role="form"&gt;
+		&lt;div class="form-group"&gt;
+			&lt;legend&gt;${formTitle}&lt;/legend&gt;
+		&lt;/div&gt;
+
+		${line_selection}${cursor}
+
+		&lt;div class="form-group"&gt;
+			&lt;div class="col-sm-10 col-sm-offset-2"&gt;
+				&lt;button type="submit" class="btn btn-primary" id="${submitBtnId}" name="${submitBtnId}"&gt;${buttonLabel}&lt;/button&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+&lt;/form&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-form-inline" enabled="true" name="bs3-form-inline">&lt;form action="${}" method="${post}" class="form-inline" role="form"&gt;
+
+	${line_selection}${cursor}
+
+	&lt;button type="submit" class="btn btn-primary" id="${submitButtonId}" name="${submitButtonId}"&gt;${buttonLabel}&lt;/button&gt;
+&lt;/form&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-form-label" enabled="true" name="bs3-form-label">&lt;label for="${inputId}" class="col-sm-2"&gt;${labelText}&lt;/label&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-html5-template" enabled="true" name="bs3-html5-template">&lt;!DOCTYPE html&gt;
+&lt;html lang="${en}"&gt;
+	&lt;head&gt;
+		&lt;meta charset="utf-8"&gt;
+		&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+		&lt;title&gt;${pageTitle}&lt;/title&gt;
+
+		&lt;!-- Bootstrap CSS --&gt;
+		&lt;link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"&gt;
+
+		&lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+		&lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
+		&lt;!--[if lt IE 9]&gt;
+			&lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+			&lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+		&lt;![endif]--&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1 class="text-center"&gt;${headerTitle}&lt;/h1&gt;
+
+		&lt;!-- jQuery --&gt;
+		&lt;script src="//code.jquery.com/jquery.js"&gt;&lt;/script&gt;
+		&lt;!-- Bootstrap JavaScript --&gt;
+		&lt;script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"&gt;&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-icon" enabled="true" name="bs3-icon">&lt;i class="fa fa-${name}"&gt;&lt;/i&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-icon-glyphicon" enabled="true" name="bs3-icon-glyphicon">&lt;span class="glyphicon glyphicon-${icon}" aria-hidden="true"&gt;&lt;/span&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-image" enabled="true" name="bs3-image">&lt;img src="${imageUrl}" ${2:class="img-responsive"} alt="${alternativeText}"&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-image-responsive" enabled="true" name="bs3-image-responsive">&lt;img src="${imageUrl}" ${2:class="img-responsive"} alt="${alternativeText}"&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-checkbox" enabled="true" name="bs3-input-checkbox">&lt;div class="checkbox"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" id="${checkboxId}" name="${checkboxId}" value="${checkboxValue}"&gt;
+		${checkboxText}
+	&lt;/label&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-color" enabled="true" name="bs3-input-color">&lt;input type="color" name="${inputColor}" id="${inputColor}" class="form-control" value="${value}" required="required" title="${title}"&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-color-h" enabled="true" name="bs3-input-color-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputColor}" class="col-sm-2 control-label"&gt;${inputText}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="color" name="${inputColor}" id="${inputColor}" class="form-control" value="${value}" required="required" title="${title}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-date" enabled="true" name="bs3-input-date">&lt;input type="date" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-date-h" enabled="true" name="bs3-input-date-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="date" id="${inputId}" name="${inputId}" class="form-control" value="${value}" required="required" title="${title}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-email" enabled="true" name="bs3-input-email">&lt;input type="email" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-email-h" enabled="true" name="bs3-input-email-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="email" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-group" enabled="true" name="bs3-input-group">&lt;div class="input-group"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-group-addon-text" enabled="true" name="bs3-input-group-addon-text">&lt;div class="input-group"&gt;
+	&lt;div class="input-group-addon"&gt;${symbol}&lt;/div&gt;
+	&lt;input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount"&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-group-btn" enabled="true" name="bs3-input-group-btn">&lt;span class="input-group-btn"&gt;
+	&lt;button type="button" class="btn btn-default"&gt;Go!&lt;/button&gt;
+&lt;/span&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-group-text-btn" enabled="true" name="bs3-input-group-text-btn">&lt;div class="input-group"&gt;
+	&lt;input type="text" class="form-control" id="exampleInputAmount" placeholder="Search"&gt;
+	&lt;span class="input-group-btn"&gt;
+		&lt;button type="button" class="btn btn-default"&gt;Go!&lt;/button&gt;
+	&lt;/span&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-hidden" enabled="true" name="bs3-input-hidden">&lt;input type="hidden" name="${inputId}" id="${inputId}" class="form-control" value="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-label" enabled="true" name="bs3-input-label">&lt;label for="${inputId}" class="col-sm-2"&gt;${labelText}&lt;/label&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-month" enabled="true" name="bs3-input-month">&lt;input type="month" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-month-h" enabled="true" name="bs3-input-month-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="month" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-number" enabled="true" name="bs3-input-number">&lt;input type="number" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-number-h" enabled="true" name="bs3-input-number-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="number" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-password" enabled="true" name="bs3-input-password">&lt;input type="password" name="${inputId}" id="${inputId}" class="form-control" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-password-h" enabled="true" name="bs3-input-password-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="password" name="${inputId}" id="${inputId}" class="form-control" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-radio" enabled="true" name="bs3-input-radio">&lt;div class="radio"&gt;
+	&lt;label&gt;
+		&lt;input type="radio" name="${inputId}" id="${inputId}" value="${}" checked="checked"&gt;
+		${radioText}
+	&lt;/label&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-range" enabled="true" name="bs3-input-range">&lt;input type="range" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-range-h" enabled="true" name="bs3-input-range-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="range" name="${inputId}" id="${inputId}" class="form-control" value="${}" min="${}" max="${}" step="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-reset" enabled="true" name="bs3-input-reset">&lt;input type="reset" value="${resetBtnLabel}" class="btn btn-default"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-reset-h" enabled="true" name="bs3-input-reset-h">&lt;div class="form-group"&gt;
+	&lt;div class="col-sm-10 col-offset-2"&gt;
+		&lt;input type="reset" value="${resetBtnLabel}" class="btn btn-default"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-search" enabled="true" name="bs3-input-search">&lt;input type="search" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-search-h" enabled="true" name="bs3-input-search-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="search" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-select" enabled="true" name="bs3-input-select">&lt;select name="${inputId}" id="${inputId}" class="form-control"&gt;
+	&lt;option value=""&gt;-- Select One --&lt;/option&gt;
+&lt;/select&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-select-h" enabled="true" name="bs3-input-select-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;select name="${inputId}" id="${inputId}" class="form-control"&gt;
+			&lt;option value=""&gt;-- Select One --&lt;/option&gt;
+		&lt;/select&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-submit" enabled="true" name="bs3-input-submit">&lt;button type="submit" class="btn btn-primary"&gt;${submitButtonLabel}&lt;/button&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-submit-h" enabled="true" name="bs3-input-submit-h">&lt;div class="form-group"&gt;
+	&lt;div class="col-sm-10 col-offset-2"&gt;
+		&lt;button type="submit" class="btn btn-primary"&gt;${submitButtonLabel}&lt;/button&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-tel" enabled="true" name="bs3-input-tel">&lt;input type="tel" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-tel-h" enabled="true" name="bs3-input-tel-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="tel" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-text" enabled="true" name="bs3-input-text">&lt;input type="text" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" pattern="${}" title="${}"  placeholder="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-text-h" enabled="true" name="bs3-input-text-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="text" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" pattern="${}" title="${}" placeholder="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-time" enabled="true" name="bs3-input-time">&lt;input type="time" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-time-h" enabled="true" name="bs3-input-time-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="time" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-url" enabled="true" name="bs3-input-url">&lt;input type="url" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-url-h" enabled="true" name="bs3-input-url-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="url" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-week" enabled="true" name="bs3-input-week">&lt;input type="week" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-input-week-h" enabled="true" name="bs3-input-week-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;input type="week" name="${inputId}" id="${inputId}" class="form-control" value="${}" required="required" title="${}"&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-jumbotron" enabled="true" name="bs3-jumbotron">&lt;div class="jumbotron"&gt;
+	&lt;div class="container"&gt;
+		&lt;h1&gt;${jumbotronTitle}&lt;/h1&gt;
+		&lt;p&gt;${contents}&lt;/p&gt;
+		&lt;p&gt;
+			&lt;a class="btn btn-primary btn-lg"&gt;${actionButtonLabel}&lt;/a&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-label" enabled="true" name="bs3-label">&lt;span class="label"&gt;${label}&lt;/span&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-label-danger" enabled="true" name="bs3-label-danger">&lt;span class="label label-danger"&gt;${label}&lt;/span&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-label-default" enabled="true" name="bs3-label-default">&lt;span class="label label-default"&gt;${label}&lt;/span&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-label-info" enabled="true" name="bs3-label-info">&lt;span class="label label-info"&gt;${label}&lt;/span&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-label-success" enabled="true" name="bs3-label-success">&lt;span class="label label-success"&gt;${label}&lt;/span&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-label-warning" enabled="true" name="bs3-label-warning">&lt;span class="label label-warning"&gt;${label}&lt;/span&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-link-button-group" enabled="true" name="bs3-link-button-group">&lt;div class="btn-group"&gt;
+	&lt;a class="btn btn-default" href="#" role="button"&gt;Left&lt;/a&gt;
+	&lt;a class="btn btn-default" href="#" role="button"&gt;Middle&lt;/a&gt;
+	&lt;a class="btn btn-default" href="#" role="button"&gt;Right&lt;/a&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-link-button-group-vertical" enabled="true" name="bs3-link-button-group-vertical">&lt;div class="btn-group-vertical"&gt;
+	&lt;a class="btn btn-default" href="#" role="button"&gt;Top&lt;/a&gt;
+	&lt;a class="btn btn-default" href="#" role="button"&gt;Middle&lt;/a&gt;
+	&lt;a class="btn btn-default" href="#" role="button"&gt;Bottom&lt;/a&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-list-group" enabled="true" name="bs3-list-group">&lt;ul class="list-group"&gt;
+	&lt;li class="list-group-item"&gt;Item 1&lt;/li&gt;
+	&lt;li class="list-group-item"&gt;Item 2&lt;/li&gt;
+	&lt;li class="list-group-item"&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-list-group-badges" enabled="true" name="bs3-list-group-badges">&lt;ul class="list-group"&gt;
+	&lt;li class="list-group-item"&gt;
+		&lt;span class="badge"&gt;5&lt;/span&gt;
+		Item 1
+	&lt;/li&gt;
+	&lt;li class="list-group-item"&gt;
+		&lt;span class="badge"&gt;10&lt;/span&gt;
+		Item 2
+	&lt;/li&gt;
+	&lt;li class="list-group-item"&gt;
+		&lt;span class="badge"&gt;15&lt;/span&gt;
+		Item 3
+	&lt;/li&gt;
+&lt;/ul&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-list-group-content" enabled="true" name="bs3-list-group-content">&lt;div class="list-group"&gt;
+	&lt;a href="${itemLink}" class="list-group-item active"&gt;
+		&lt;h4 class="list-group-item-heading"&gt;${itemTitle}&lt;/h4&gt;
+		&lt;p class="list-group-item-text"&gt;${itemContent}&lt;/p&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-list-group-linked" enabled="true" name="bs3-list-group-linked">&lt;div class="list-group"&gt;
+	&lt;a href="#" class="list-group-item active"&gt;Item 1&lt;/a&gt;
+	&lt;a href="#" class="list-group-item"&gt;Item 2&lt;/a&gt;
+	&lt;a href="#" class="list-group-item"&gt;Item 3&lt;/a&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-local" enabled="true" name="bs3-local">&lt;!-- Local bootstrap CSS &amp; JS --&gt;
+&lt;link rel="stylesheet" media="screen" href="bootstrap.min.css"&gt;
+&lt;script src="jquery.js"&gt;&lt;/script&gt;
+&lt;script src="bootstrap.min.js"&gt;&lt;/script&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-media-object" enabled="true" name="bs3-media-object">&lt;div class="media"&gt;
+	&lt;a class="pull-left" href="${targetUrl}"&gt;
+		&lt;img class="media-object" src="${imageUrl}" alt="${altText}"&gt;
+	&lt;/a&gt;
+	&lt;div class="media-body"&gt;
+		&lt;h4 class="media-heading"&gt;${mediaHeading}&lt;/h4&gt;
+		&lt;p&gt;${mediaDescription}&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-modal" enabled="true" name="bs3-modal">&lt;a class="btn btn-primary" data-toggle="modal" href='#${modalId}'&gt;Trigger modal&lt;/a&gt;
+&lt;div class="modal fade" id="${modalId}"&gt;
+	&lt;div class="modal-dialog"&gt;
+		&lt;div class="modal-content"&gt;
+			&lt;div class="modal-header"&gt;
+				&lt;button type="button" class="close" data-dismiss="modal" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+				&lt;h4 class="modal-title"&gt;${modalTitle}&lt;/h4&gt;
+			&lt;/div&gt;
+			&lt;div class="modal-body"&gt;
+				${line_selection}${cursor}
+			&lt;/div&gt;
+			&lt;div class="modal-footer"&gt;
+				&lt;button type="button" class="btn btn-default" data-dismiss="modal"&gt;${closeButtonLabel}&lt;/button&gt;
+				&lt;button type="button" class="btn btn-primary"&gt;${saveChangesLabel}&lt;/button&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar" enabled="true" name="bs3-navbar">&lt;nav class="navbar navbar-default" role="navigation"&gt;
+	&lt;div class="container-fluid"&gt;
+		&lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+		&lt;div class="navbar-header"&gt;
+			&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"&gt;
+				&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+				&lt;span class="icon-bar"&gt;&lt;/span&gt;
+				&lt;span class="icon-bar"&gt;&lt;/span&gt;
+				&lt;span class="icon-bar"&gt;&lt;/span&gt;
+			&lt;/button&gt;
+			&lt;a class="navbar-brand" href="${}"&gt;${title}&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+		&lt;div class="collapse navbar-collapse navbar-ex1-collapse"&gt;
+			&lt;ul class="nav navbar-nav"&gt;
+				&lt;li class="active"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;form class="navbar-form navbar-left" role="search"&gt;
+				&lt;div class="form-group"&gt;
+					&lt;input type="text" class="form-control" placeholder="Search"&gt;
+				&lt;/div&gt;
+				&lt;button type="submit" class="btn btn-default"&gt;Submit&lt;/button&gt;
+			&lt;/form&gt;
+			&lt;ul class="nav navbar-nav navbar-right"&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="dropdown"&gt;
+					&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;Dropdown &lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+					&lt;ul class="dropdown-menu"&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-basic" enabled="true" name="bs3-navbar-basic">&lt;div class="navbar"&gt;
+	&lt;div class="container-fluid"&gt;
+		&lt;a class="navbar-brand" href="#"&gt;${title}&lt;/a&gt;
+		&lt;ul class="nav navbar-nav"&gt;
+			&lt;li class="active"&gt;
+				&lt;a href="#"&gt;${homeLabel}&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href="#"&gt;${linkLabel}&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-brand" enabled="true" name="bs3-navbar-brand">&lt;a class="navbar-brand" href="${}"&gt;${title}&lt;/a&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-fixed-bottom" enabled="true" name="bs3-navbar-fixed-bottom">&lt;nav class="navbar navbar-default navbar-fixed-bottom" role="navigation"&gt;
+	&lt;div class="container"&gt;
+		&lt;a class="navbar-brand" href="${}"&gt;${title}&lt;/a&gt;
+		&lt;ul class="nav navbar-nav"&gt;
+			&lt;li class="active"&gt;
+				&lt;a href="#"&gt;${homeLabel}&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href="#"&gt;${linkLabel}&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-fixed-top" enabled="true" name="bs3-navbar-fixed-top">&lt;nav class="navbar navbar-default navbar-fixed-top" role="navigation"&gt;
+	&lt;div class="container"&gt;
+		&lt;a class="navbar-brand" href="${}"&gt;${title}&lt;/a&gt;
+		&lt;ul class="nav navbar-nav"&gt;
+			&lt;li class="active"&gt;
+				&lt;a href="#"&gt;${homeLabel}&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href="#"&gt;${linkLabel}&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-form" enabled="true" name="bs3-navbar-form">&lt;form class="navbar-form pull-${right}"&gt;
+	&lt;input type="text" style="width: 200px;"&gt;
+	&lt;button type="submit" class="btn btn-${default}"&gt;${submitLabel}&lt;/button&gt;
+&lt;/form&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-inverse" enabled="true" name="bs3-navbar-inverse">&lt;nav class="navbar navbar-inverse"&gt;
+	&lt;div class="container-fluid"&gt;
+		&lt;a class="navbar-brand" href="#"&gt;${title}&lt;/a&gt;
+		&lt;ul class="nav navbar-nav"&gt;
+			&lt;li class="active"&gt;
+				&lt;a href="#"&gt;${homeLabel}&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href="#"&gt;${linkLabel}&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-link" enabled="true" name="bs3-navbar-link">&lt;p class="navbar-text pull-${right}"&gt;
+	&lt;a href="${}" class="navbar-link"&gt;${3:Links}&lt;/a&gt;
+&lt;/p&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-links" enabled="true" name="bs3-navbar-links">&lt;ul class="nav navbar-nav"&gt;
+	&lt;li class="active"&gt;
+		&lt;a href="${}"&gt;${homeLabel}&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="${}"&gt;${linkLabel}&lt;/a&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-responsive" enabled="true" name="bs3-navbar-responsive">&lt;nav class="navbar navbar-default" role="navigation"&gt;
+	&lt;div class="container-fluid"&gt;
+		&lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+		&lt;div class="navbar-header"&gt;
+			&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"&gt;
+				&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+				&lt;span class="icon-bar"&gt;&lt;/span&gt;
+				&lt;span class="icon-bar"&gt;&lt;/span&gt;
+				&lt;span class="icon-bar"&gt;&lt;/span&gt;
+			&lt;/button&gt;
+			&lt;a class="navbar-brand" href="${}"&gt;${title}&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+		&lt;div class="collapse navbar-collapse navbar-ex1-collapse"&gt;
+			&lt;ul class="nav navbar-nav"&gt;
+				&lt;li class="active"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;form class="navbar-form navbar-left" role="search"&gt;
+				&lt;div class="form-group"&gt;
+					&lt;input type="text" class="form-control" placeholder="Search"&gt;
+				&lt;/div&gt;
+				&lt;button type="submit" class="btn btn-default"&gt;Submit&lt;/button&gt;
+			&lt;/form&gt;
+			&lt;ul class="nav navbar-nav navbar-right"&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="dropdown"&gt;
+					&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;Dropdown &lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+					&lt;ul class="dropdown-menu"&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-static-top" enabled="true" name="bs3-navbar-static-top">&lt;nav class="navbar navbar-default navbar-static-top" role="navigation"&gt;
+	&lt;div class="container"&gt;
+		&lt;a class="navbar-brand" href="${}"&gt;${title}&lt;/a&gt;
+		&lt;ul class="nav navbar-nav"&gt;
+			&lt;li class="active"&gt;
+				&lt;a href="#"&gt;${homeLabel}&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;a href="#"&gt;${linkLabel}&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/nav&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-navbar-text" enabled="true" name="bs3-navbar-text">&lt;p class="navbar-text"&gt;${navbarText}&lt;/p&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-page header" enabled="true" name="bs3-page header">&lt;div class="page-header"&gt;
+  &lt;h1&gt;${title}&lt;small&gt;${subtext}&lt;/small&gt;&lt;/h1&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-pager" enabled="true" name="bs3-pager">&lt;ul class="pager"&gt;
+	&lt;li&gt;&lt;a href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-pager-aligned" enabled="true" name="bs3-pager-aligned">&lt;ul class="pager"&gt;
+	&lt;li class="previous"&gt;&lt;a href="#"&gt;&amp;larr; Older&lt;/a&gt;&lt;/li&gt;
+	&lt;li class="next"&gt;&lt;a href="#"&gt;Newer &amp;rarr;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-pagination" enabled="true" name="bs3-pagination">&lt;ul class="pagination"&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&amp;laquo;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-pagination-large" enabled="true" name="bs3-pagination-large">&lt;ul class="pagination pagination-lg"&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&amp;laquo;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-pagination-small" enabled="true" name="bs3-pagination-small">&lt;ul class="pagination pagination-sm"&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&amp;laquo;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-panel" enabled="true" name="bs3-panel">&lt;div class="panel panel-${default_primary_info_success_warning_danger}"&gt;
+	&lt;div class="panel-heading"&gt;
+		&lt;h3 class="panel-title"&gt;${panelTitle}&lt;/h3&gt;
+	&lt;/div&gt;
+	&lt;div class="panel-body"&gt;
+		${panelContent}
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-panel-table" enabled="true" name="bs3-panel-table">&lt;div class="panel panel-${default_primary_info_success_warning_danger}"&gt;
+	&lt;!-- Default panel contents --&gt;
+	&lt;div class="panel-heading"&gt;${panelHeading}&lt;/div&gt;
+	&lt;div class="panel-body"&gt;
+		&lt;p&gt;${panelBody}&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;!-- Table --&gt;
+	&lt;table class="table"&gt;
+		&lt;thead&gt;
+			&lt;tr&gt;
+				&lt;th&gt;${th1_label}&lt;/th&gt;
+				&lt;th&gt;${th2_label}&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;${td1_content}&lt;/td&gt;
+				&lt;td&gt;${td2_content}&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-row" enabled="true" name="bs3-row">&lt;div class="row"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-row-col" enabled="true" name="bs3-row-col">&lt;div class="row"&gt;
+	&lt;div class="col-xs-${digit} col-sm-${digit} col-md-${digit} col-lg-${digit}"&gt;
+		${line_selection}${cursor}
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-select" enabled="true" name="bs3-select">&lt;select name="${inputId}" id="${inputId}" class="form-control" required="required"&gt;
+	&lt;option value=""&gt;${line_selection}${cursor}&lt;/option&gt;
+&lt;/select&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-select-h" enabled="true" name="bs3-select-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;select name="${inputId}" id="${inputId}" class="form-control" required="required"&gt;
+			&lt;option value=""&gt;${line_selection}${cursor}&lt;/option&gt;
+		&lt;/select&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-sm-link-button" enabled="true" name="bs3-sm-link-button">&lt;a class="btn btn-sm btn-default" href="#" role="button"&gt;button&lt;/a&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-table" enabled="true" name="bs3-table">&lt;table class="table table-${hover}"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-table-bordered" enabled="true" name="bs3-table-bordered">&lt;table class="table table-bordered table-${hover}"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-table-condensed" enabled="true" name="bs3-table-condensed">&lt;table class="table table-condensed table-${hover}"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-table-hover" enabled="true" name="bs3-table-hover">&lt;table class="table table-hover"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-table-responsive" enabled="true" name="bs3-table-responsive">&lt;div class="table-responsive"&gt;
+	&lt;table class="table table-${hover}"&gt;
+		&lt;thead&gt;
+			&lt;tr&gt;
+				&lt;th&gt;&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-table-striped" enabled="true" name="bs3-table-striped">&lt;table class="table table-striped table-${hover}"&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-tabs" enabled="true" name="bs3-tabs">&lt;div role="tabpanel"&gt;
+	&lt;!-- Nav tabs --&gt;
+	&lt;ul class="nav nav-tabs" role="tablist"&gt;
+		&lt;li role="presentation" class="active"&gt;
+			&lt;a href="#${home}" aria-controls="${home}" role="tab" data-toggle="tab"&gt;${home}&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li role="presentation"&gt;
+			&lt;a href="#${tab}" aria-controls="${tab}" role="tab" data-toggle="tab"&gt;${tab}&lt;/a&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+
+	&lt;!-- Tab panes --&gt;
+	&lt;div class="tab-content"&gt;
+		&lt;div role="tabpanel" class="tab-pane active" id="${home}"&gt;...&lt;/div&gt;
+		&lt;div role="tabpanel" class="tab-pane" id="${tab}"&gt;...&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-template.starter" enabled="true" name="bs3-template.starter">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --&gt;
+    &lt;meta name="description" content=""&gt;
+    &lt;meta name="author" content=""&gt;
+    &lt;link rel="icon" href="${faviconUrl}"&gt;
+
+    &lt;title&gt;Starter Template for Bootstrap&lt;/title&gt;
+
+    &lt;!-- Bootstrap core CSS --&gt;
+    &lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"&gt;
+
+    &lt;!-- Custom styles for this template --&gt;
+    &lt;link href="starter-template.css" rel="stylesheet"&gt;
+
+    &lt;!-- Just for debugging purposes. Don't actually copy these 2 lines! --&gt;
+    &lt;!--[if lt IE 9]&gt;&lt;script src="../../assets/js/ie8-responsive-file-warning.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;
+    &lt;script src="../../assets/js/ie-emulation-modes-warning.js"&gt;&lt;/script&gt;
+
+    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
+      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;nav class="navbar navbar-inverse navbar-fixed-top"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="navbar-header"&gt;
+          &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"&gt;
+            &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;a class="navbar-brand" href="#"&gt;Project name&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div id="navbar" class="collapse navbar-collapse"&gt;
+          &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;div class="container"&gt;
+
+      &lt;div class="starter-template"&gt;
+        &lt;h1&gt;Bootstrap starter template&lt;/h1&gt;
+        &lt;p class="lead"&gt;Use this document as a way to quickly start any new project.&lt;br&gt; All you get is this text and a mostly barebones HTML document.&lt;/p&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;&lt;!-- /.container --&gt;
+
+
+    &lt;!-- Bootstrap core JavaScript
+    ================================================== --&gt;
+    &lt;!-- Placed at the end of the document so the pages load faster --&gt;
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;!-- IE10 viewport hack for Surface/desktop Windows 8 bug --&gt;
+    &lt;script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-textarea" enabled="true" name="bs3-textarea">&lt;textarea name="${inputId}" id="${inputId}" class="form-control" rows="${rowCount}" required="required"&gt;${}&lt;/textarea&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-textarea-h" enabled="true" name="bs3-textarea-h">&lt;div class="form-group"&gt;
+	&lt;label for="${inputId}" class="col-sm-2 control-label"&gt;${inputLabel}:&lt;/label&gt;
+	&lt;div class="col-sm-10"&gt;
+		&lt;textarea name="${inputId}" id="${inputId}" class="form-control" rows="${rowCount}" required="required"&gt;${}&lt;/textarea&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-thumbnail" enabled="true" name="bs3-thumbnail">&lt;div class="col-xs-${digit} col-sm-${digit} col-md-${digit} col-lg-${digit}"&gt;
+	&lt;a href="${thumbnailLink}" class="thumbnail"&gt;
+		&lt;img data-src="${imageUrl}" alt="${alternativeText}"&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-thumbnail-content" enabled="true" name="bs3-thumbnail-content">&lt;div class="col-xs-${digit} col-sm-${digit} col-md-${digit} col-lg-${digit}"&gt;
+	&lt;div class="thumbnail"&gt;
+		&lt;img data-src="${imageUrl}" alt="${alternativeText}"&gt;
+		&lt;div class="caption"&gt;
+			&lt;h3&gt;${title}&lt;/h3&gt;
+			&lt;p&gt;
+				${textBody}
+			&lt;/p&gt;
+			&lt;p&gt;
+				&lt;a href="${actionUrl_1}" class="btn btn-primary"&gt;${actionLabel_1}&lt;/a&gt;
+				&lt;a href="${actionUrl_2}" class="btn btn-default"&gt;${actionLabel_2}&lt;/a&gt;
+			&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-well" enabled="true" name="bs3-well">&lt;div class="well"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-well-lg" enabled="true" name="bs3-well-lg">&lt;div class="well well-lg"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;</template><template autoinsert="true" context="html_all" deleted="false" description="bs3-well-sm" enabled="true" name="bs3-well-sm">&lt;div class="well well-sm"&gt;
+	${line_selection}${cursor}
+&lt;/div&gt;</template></templates>

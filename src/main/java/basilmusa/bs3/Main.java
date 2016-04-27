@@ -10,6 +10,7 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 import com.google.common.base.Charsets;
 
@@ -31,8 +32,8 @@ public class Main {
 		xmlEscapeChars.put(">", "&gt;");
 		xmlEscapeChars.put("&", "&amp;");
 	
-		final StringBuilder stringBuilder = new StringBuilder(1024 * 1024 * 2);
-		stringBuilder.append(TEMPLATE_FILE_HEADER);
+		final Map<String, String> collectSnippets = new TreeMap<String, String>();
+		
 		
 		try {
 		    Path startPath = Paths.get(CURRENT_DIRECTORY);
@@ -59,9 +60,13 @@ public class Main {
 						
 						Map<String, String> needle2replacement = new HashMap<>();
 						needle2replacement.put("{{snippet_name}}", snippetName);
-						stringBuilder.append(Strtr.replaceStringUsingMap(TEMPLATE_SECTION_START, needle2replacement));
-						stringBuilder.append(Strtr.replaceStringUsingMap(fileContents, xmlEscapeChars));
-						stringBuilder.append(TEMPLATE_SECTION_END);
+						
+						String snippetValue = 
+								Strtr.replaceStringUsingMap(TEMPLATE_SECTION_START, needle2replacement)
+								+ Strtr.replaceStringUsingMap(fileContents, xmlEscapeChars)
+								+ TEMPLATE_SECTION_END;
+						
+						collectSnippets.put(snippetName, snippetValue);
 						
 						System.out.println("File: " + file.toString());
 					} catch (IOException e) {
@@ -78,6 +83,14 @@ public class Main {
 		        }
 		    });
 		    
+		    
+			final StringBuilder stringBuilder = new StringBuilder(1024 * 1024 * 2);
+			stringBuilder.append(TEMPLATE_FILE_HEADER);
+
+			for (String snippetValue : collectSnippets.values()) {
+				stringBuilder.append(snippetValue);
+			}
+			
 		    stringBuilder.append(TEMPLATE_FILE_FOOTER);
 		    
 		    // Finished everything
